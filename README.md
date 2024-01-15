@@ -1,17 +1,17 @@
 # BuildAngular
 TP Workflow : utiliser GitHub Actions pour build un code Angular 
 
-on
+  on
   
-  push.[main]
+    push.[main]
   
-jobs : 
+  jobs : 
 
-  compiler code Angular (Ubuntu.latest)
+    compiler code Angular (Ubuntu.latest)
     
-    steps :
+      steps :
     
-      installer Node.js
-      installer npm
-      installer angular
-      build l'application 
+        installer Node.js
+        installer npm
+        installer angular
+        build l'application 
